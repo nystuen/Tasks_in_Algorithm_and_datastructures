@@ -52,7 +52,7 @@ public class Tree {
         String str = "hode ben arm hake albue legg tå tann hår headset jakke";
         Node test = insertSentence(str);
 
-        print2D(test, 0); 
+        print2D(test, 0);
 
     }
 
