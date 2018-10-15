@@ -128,7 +128,7 @@ class Graf {
 
     public static void main(String[] args) throws IOException {
 
-        FileReader leseforbTilFil = new FileReader("/Users/adnenystuen/Documents/Skole/Java/IdeaProjects/Tasks_in_AlgorithmAndDatastructures/src/Oving7_1/L7g6");
+        FileReader leseforbTilFil = new FileReader("/Users/adnenystuen/Documents/Skole/Java/IdeaProjects/Tasks_in_AlgorithmAndDatastructures/src/Oving7_1/L7g2");
         BufferedReader br = new BufferedReader(leseforbTilFil);
         Graf g = new Graf();
 
