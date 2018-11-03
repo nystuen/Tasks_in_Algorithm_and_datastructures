@@ -3,11 +3,11 @@ package Oving8_2;
 import java.io.*;
 import java.util.*;
 
-class DikjstraAlgorithm {
+class DijkstraAlgorithm {
     public static void main(String[] args) throws Exception{
 
         int n, k;
-        String fileName = "eksempelFil";
+        String fileName = "vg3";
 
         File file = new File("/Users/adnenystuen/Documents/Skole/Java/IdeaProjects/Tasks_in_AlgorithmAndDatastructures/src/Oving8_2/" + fileName +  "");
         BufferedReader br = new BufferedReader(new FileReader(file));
@@ -29,7 +29,7 @@ class DikjstraAlgorithm {
             g.addEdge(from, to, weight);
         }
 
-        g.findShortestPaths(1);
+        g.findShortestPaths(0);
     }
 
     public static class Graph {
@@ -144,11 +144,11 @@ class DikjstraAlgorithm {
                 }
             }
         }
-
         public static class Heap {
             private Vertex[] heap;
             private int maxSize;
             private int size;
+
 
             public Heap(int maxSize) {
                 this.maxSize = maxSize;
